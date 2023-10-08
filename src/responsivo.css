@@ -1,0 +1,56 @@
+@media (max-width: 769px) {
+    body main::after {
+        background: linear-gradient(0deg, #000 20%, rgba(0, 0, 0, 0.1) 65%) no-repeat;
+    }
+    body main .personagem .imagem{
+       height: 85%;
+    }
+    .personagem .conteudo {
+        justify-content: flex-end;
+        left: 0;
+        top: -20%;
+        max-width: 100vw;
+        padding: 30px;
+    }
+    .personagem .conteudo .nome-personagem {
+        font-size: 36px;
+    }
+    .personagem .conteudo .descricao {
+        max-width: 500px;
+    }
+    body .botoes {
+        flex-direction: row;
+        align-items: end;
+        width: 100%;
+        padding: 30px;
+        background-color: rgba(0, 0, 0, 0.3);
+    
+    }
+    body .botoes .botao img {
+        max-width: 60px;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+
+}
+@media (max-width: 425px) {
+    body main .personagem .imagem {
+        height: auto;
+
+    }
+    body main .conteudo .logo {
+        width: 170px;
+        height: 75px;
+
+    }
+    body main .conteudo {
+        top: -30;
+    }
+    body .botoes {
+        padding: 40px;
+        top: -20px;
+    }
+    body .botao img {
+        max-width: 50px;
+    }
+}
